@@ -1,0 +1,131 @@
+.navbar {
+    width: 100%;
+    min-height: 70px;
+    position: sticky;
+    background-color: lightskyblue;
+}
+.menuItem {
+    text-align: center;
+    padding: 5px;
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 100px;
+    border-radius: var(--rd,5px);
+    border: var(--container-corvid-border-width,var(--brw,1px)) solid var(--container-corvid-border-color,rgba(var(--brd,var(--color_15)),var(--alpha-brd,1)));
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+}
+.menuItem:hover{
+
+    background-color:lightgray;
+    color: maroon;
+   
+}
+.menu {
+    position: sticky;
+    top: 6%;
+    right: 2%;
+    float: right;
+    z-index: 1;
+ }
+ main {
+     background-color: orange;
+ }
+ .row {
+     position: relative;
+     display: block;
+     margin-top: 10px;
+    
+     display: flex;
+    
+     justify-content: space-between;
+   
+ }
+ div.contenImage {
+     position: relative;
+    max-width: 30%;
+    flex:1;
+    
+ }
+ div.contentImage img{
+
+     display: inline-block;
+     width: 300px;
+     height: 300px;
+     padding: 3px;
+     margin: 20px 10px 20px 10px;
+     
+ }
+ div.content-item {
+    background-color: white;
+    padding: 5px;
+    
+ }
+h3 {
+    margin: 5px;
+
+}
+p{
+    margin: 5px;
+}
+
+ .content{
+    flex: 2;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+ }
+.row:nth-child(even)
+{
+    flex-direction: row-reverse;
+}
+ .flexparent {
+   
+ }
+ .footer {
+    width: 100%;
+ }
+ .footer-item {
+     display: inline-block;
+    width: 100%;
+     text-align: center;
+     margin: 0px;
+     box-sizing: border-box;
+ }
+ .contact {
+     box-sizing: border-box;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     width: 50%;
+     height: 350px;
+     text-align: center;
+     float: right;
+ }
+ .map {
+     box-sizing: border-box;
+     width: 50%;
+     float: left;
+ }
+ div.googleMap {
+    width:"500";
+    height:"350";
+    style:"border:0";
+    
+ }
+ .copyright {
+     background-color: lightskyblue;
+     box-sizing: border-box;
+ }
+ .copyright p{
+     margin: 0px;
+ }
+ .navImg {
+     max-width: 100px;
+     max-height: 100px;
+ }
+ .container-Img {
+     display: inline-block;
+     width: 100px;
+ }
